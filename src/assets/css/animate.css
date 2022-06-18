@@ -1,0 +1,14 @@
+.boss-in-enter, .boss-in-exit-done {
+  opacity: 0;
+}
+.boss-in-enter-active {
+  opacity: 1;
+  transition: opacity .8s ease-in;
+}
+.boss-in-enter-done, .boss-in-exit {
+  opacity: 1;
+}
+.boss-in-exit-active {
+  opacity: 0;
+  transition: opacity .8s ease-in;
+}
